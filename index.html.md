@@ -60,14 +60,6 @@ To install DataStax Enterprise for PCF, follow the procedure for installing Pivo
 1. Click the newly added tile to review any configurable options.
 1. Click **Apply Changes** to install the service.
 
-### Dependencies
-This product requires [Pivotal Cloud Foundry](https://network.pivotal.io/products/pivotal-cf):
-
-* Elastic Runtime version 1.4.0 or greater
-* Ops Manager version 1.4.0 or greater
-
-These must be installed first, before upgrading from a previous version. 
-
 ## Available Plans
 
 There is one available plan:
