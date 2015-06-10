@@ -4,6 +4,52 @@ title: DataStax Enterprise for Pivotal Cloud Foundry
 
 This is documentation for the [DataStax Enterprise service for Pivotal Cloud Foundry](https://network.pivotal.io/products/p-cassandra), which provides a Cassandra key-value and table store. 
 
+## Product snapshot
+
+<dl>
+<dt>Current DataStax Enterprise for PCF Details</dt>
+<dd><strong>Version</strong>: 1.3.5 </dd>
+<dd><strong>Release Date</strong>: 17th April 2015</dd>
+<dd><strong>Software component version</strong>: DataStax Enterprise 4.5</dd>
+<dd><strong>Compatible Ops Manager Version(s)</strong>: 1.4.x</dd>
+<dd><strong>Compatible Elastic Runtime Version(s)</strong>: 1.4.x</dd>
+<dd><strong>vSphere support?</strong> Yes</dd>
+<dd><strong>AWS support?</strong> Yes</dd>
+</dl>
+
+## Upgrading to the Latest Version
+
+Consider the following compatibility information before upgrading DataStax Enterprise for Pivotal Cloud Foundry. 
+
+<p class="note"><strong>Note</strong>: Before you upgrade to Ops Manager 1.4.x, you must first upgrade DataStax Enterprise for Pivotal Cloud Foundry to any version in its 1.3.x minor release, below 1.3.5. This allows DataStax Enterprise for Pivotal Cloud Foundry upgrades after you install OpsManager 1.4.x. </p>
+
+For more information, refer to the full Product Version Matrix.
+
+<table border="1" class="nice">
+<tr>
+  <th>Ops Manager Version</th>
+  <th>Supported Upgrades from Imported DataStax Enterprise Installation</th>
+</tr>
+<tr>
+  <th>1.3.x</th>
+  <td><ul>
+      <li>From 1.3.2 to 1.3.3</li>
+      <li>From 1.3.2 to 1.3.4</li>
+      <li>From 1.3.3 to 1.3.4</li>
+    </ul>
+  </td>
+</tr>
+<tr>
+  <th>1.4.x</th>
+  <td><ul>
+      <li>From 1.3.2 to 1.3.5</li>    
+      <li>From 1.3.3 to 1.3.5</li>	
+      <li>From 1.3.4 to 1.3.5</li>
+    </ul>
+  </td>
+</tr>
+</table>
+
 ## Install via Pivotal Operations Manager
 
 To install DataStax Enterprise for PCF, follow the procedure for installing Pivotal Ops Manager tiles:
@@ -13,34 +59,6 @@ To install DataStax Enterprise for PCF, follow the procedure for installing Pivo
 1. Click **Add** next to the uploaded product description in the Available Products view to add this product to your staging area.
 1. Click the newly added tile to review any configurable options.
 1. Click **Apply Changes** to install the service.
-
-## Product snapshot
-
-<table border="1" class="nice">
-<tr>
-        <th>Current tile version</th>
-        <th>Released on</th>
-        <th>Software component version</th>
-        <th>Supported migrations</th>
-        <th>vSphere support?</th>
-        <th>AWS support?</th>
-</tr>
-<tr>
-        <td>1.3.5</td>
-        <td>17th April 2015</td>
-        <td>4.5</td>
-        <td>
-        From: <br />
-        * 1.3.4 <br />
-        * 1.3.3 <br />
-        * 1.3.2 <br />
-        </td>
-        <td>Yes</td>
-        <td>Yes</td>
-
-</tr>
-</table>
-
 
 ### Dependencies
 This product requires [Pivotal Cloud Foundry](https://network.pivotal.io/products/pivotal-cf):
