@@ -11,7 +11,7 @@ Features included in this release:
 
 * Support for OpsManager 1.5.x or 1.4.x
 * Support for Elastic Runtime 1.5.x or 1.4.x
-* Support for HTTPS only environments
+* Support for HTTPS-only environments
 * Support for vSphere or AWS Deployments
 * Requires stemcell 2989
 
