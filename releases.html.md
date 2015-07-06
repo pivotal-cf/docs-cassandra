@@ -12,11 +12,12 @@ Features included in this release:
 * Support for vSphere & AWS
 * Requires OpsManager 1.4.0 and Elastic Runtime 1.4.0 or greater
 
-Known issues: 
+Known issues:
 
-* On AWS, this version supports deployments in the US-East region. Multi-region support is coming in a future release
-* The experimental HTTPS-only feature in Elastic Runtime 1.5 may cause issues with this version of the product. Full support for HTTPS-only trafic is coming in a future release
-* Note: BOSH Stemcell 2865.1 is required for installation on Ops Manager 1.5.x and above
+* On AWS, this version supports deployments in the US-East region. Multi-region support is coming in a future release.
+* The experimental HTTPS-only feature in Elastic Runtime 1.5 may cause issues with this version of the product. Full support for HTTPS-only traffic is coming in a future release.
+
+<p class="note"><strong>Note</strong>: BOSH Stemcell 2865.1 is required for installation on Ops Manager 1.5.x and above. </p>
 
 ### 1.3.4
 **Release Date: 24th March 2015**
