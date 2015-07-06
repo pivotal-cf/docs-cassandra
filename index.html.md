@@ -8,13 +8,14 @@ This is documentation for the [DataStax Enterprise service for Pivotal Cloud Fou
 
 <dl>
 <dt>Current DataStax Enterprise for PCF Details</dt>
-<dd><strong>Version</strong>: 1.3.5 </dd>
-<dd><strong>Release Date</strong>: 17th April 2015</dd>
+<dd><strong>Version</strong>: 1.3.6 </dd>
+<dd><strong>Release Date</strong>: 7th July 2015</dd>
 <dd><strong>Software component version</strong>: DataStax Enterprise 4.5</dd>
-<dd><strong>Compatible Ops Manager Version(s)</strong>: 1.4.x</dd>
-<dd><strong>Compatible Elastic Runtime Version(s)</strong>: 1.4.x</dd>
+<dd><strong>Compatible Ops Manager Version(s)</strong>: 1.5.x, 1.4.x</dd>
+<dd><strong>Compatible Elastic Runtime Version(s)</strong>: 1.5.x, 1.4.x</dd>
 <dd><strong>vSphere support?</strong> Yes</dd>
 <dd><strong>AWS support?</strong> Yes</dd>
+<dd><strong>Openstack support?</strong> Yes</dd>
 </dl>
 
 ## Upgrading to the Latest Version
@@ -40,11 +41,12 @@ For more information, refer to the full Product Version Matrix.
   </td>
 </tr>
 <tr>
-  <th>1.4.x</th>
+  <th>1.5.x and 1.4.x</th>
   <td><ul>
-      <li>From 1.3.2 to 1.3.5</li>    
-      <li>From 1.3.3 to 1.3.5</li>	
-      <li>From 1.3.4 to 1.3.5</li>
+      <li>From 1.3.2 to 1.3.5, 1.3.6</li>    
+      <li>From 1.3.3 to 1.3.5, 1.3.6</li>	
+      <li>From 1.3.4 to 1.3.5, 1.3.6</li>
+      <li>From 1.3.5 to 1.3.6</li>
     </ul>
   </td>
 </tr>
