@@ -4,6 +4,17 @@ title: DataStax Enterprise for Pivotal Cloud Foundry
 
 Release notes for [DataStax Enterprise for Pivotal Cloud Foundry](https://network.pivotal.io/products/p-cassandra)
 
+### 1.3.6
+**Release Date: 6th July 2015**
+
+Features included in this release:
+
+* Support for OpsManager 1.5.x or 1.4.x
+* Support for Elastic Runtime 1.5.x or 1.4.x
+* Support for HTTPS only environments
+* Support for vSphere or AWS Deployments
+* Requires stemcell 2989
+
 ### 1.3.5
 **Release Date: 17th April 2015**
 
