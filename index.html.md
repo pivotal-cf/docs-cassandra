@@ -24,7 +24,7 @@ Consider the following compatibility information before upgrading DataStax Enter
 
 <p class="note"><strong>Note</strong>: Before you upgrade to Ops Manager 1.4.x, you must first upgrade DataStax Enterprise for Pivotal Cloud Foundry to any version in its 1.3.x minor release, below 1.3.5. This allows DataStax Enterprise for Pivotal Cloud Foundry upgrades after you install OpsManager 1.4.x. </p>
 
-For more information, refer to the full Product Version Matrix.
+For more information, refer to the full [Product Version Matrix](../compatibility-matrix.pdf).
 
 <table border="1" class="nice">
 <tr>
