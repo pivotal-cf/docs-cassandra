@@ -1,8 +1,8 @@
 ---
-title: DataStax Enterprise for Pivotal CF
+title: DataStax Enterprise for Pivotal Cloud Foundry
 ---
 
-This is documentation for the DataStax Enterprise service for Pivotal CF, which provides a Cassandra key-value and table store.
+This is documentation for the DataStax Enterprise service for Pivotal Cloud Foundry, which provides a Cassandra key-value and table store.
 
 ## Development plan features
 Key features of this plan are:
