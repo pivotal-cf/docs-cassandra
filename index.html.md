@@ -2,17 +2,17 @@
 title: DataStax Enterprise for Pivotal Cloud Foundry
 ---
 
-This is documentation for the [DataStax Enterprise service for Pivotal Cloud Foundry](https://network.pivotal.io/products/p-cassandra), which provides a Cassandra key-value and table store. 
+This is documentation for the [DataStax Enterprise service for Pivotal Cloud Foundry](https://network.pivotal.io/products/p-cassandra), which provides a Cassandra key-value and table store.
 
 ## Product snapshot
 
 <dl>
 <dt>Current DataStax Enterprise for PCF Details</dt>
-<dd><strong>Version</strong>: 1.3.6 </dd>
-<dd><strong>Release Date</strong>: 7th July 2015</dd>
+<dd><strong>Version</strong>: 1.3.7 </dd>
+<dd><strong>Release Date</strong>: 30th October 2015</dd>
 <dd><strong>Software component version</strong>: DataStax Enterprise 4.5</dd>
-<dd><strong>Compatible Ops Manager Version(s)</strong>: 1.5.x, 1.4.x</dd>
-<dd><strong>Compatible Elastic Runtime Version(s)</strong>: 1.5.x, 1.4.x</dd>
+<dd><strong>Compatible Ops Manager Version(s)</strong>: 1.6.x, 1.5.x, 1.4.x</dd>
+<dd><strong>Compatible Elastic Runtime Version(s)</strong>: 1.6.x, 1.5.x, 1.4.x</dd>
 <dd><strong>vSphere support?</strong> Yes</dd>
 <dd><strong>AWS support?</strong> Yes</dd>
 <dd><strong>Openstack support?</strong> Yes</dd>
@@ -20,7 +20,7 @@ This is documentation for the [DataStax Enterprise service for Pivotal Cloud Fou
 
 ## Upgrading to the Latest Version
 
-Consider the following compatibility information before upgrading DataStax Enterprise for Pivotal Cloud Foundry. 
+Consider the following compatibility information before upgrading DataStax Enterprise for Pivotal Cloud Foundry.
 
 <p class="note"><strong>Note</strong>: Before you upgrade to Ops Manager 1.4.x, you must first upgrade DataStax Enterprise for Pivotal Cloud Foundry to any version in its 1.3.x minor release, below 1.3.5. This allows DataStax Enterprise for Pivotal Cloud Foundry upgrades after you install OpsManager 1.4.x. </p>
 
@@ -41,12 +41,13 @@ For more information, refer to the full [Product Version Matrix](../compatibilit
   </td>
 </tr>
 <tr>
-  <th>1.5.x and 1.4.x</th>
+  <th>1.6.x, 1.5.x and 1.4.x</th>
   <td><ul>
-      <li>From 1.3.2 to 1.3.5, 1.3.6</li>    
-      <li>From 1.3.3 to 1.3.5, 1.3.6</li>	
-      <li>From 1.3.4 to 1.3.5, 1.3.6</li>
-      <li>From 1.3.5 to 1.3.6</li>
+      <li>From 1.3.2 to 1.3.5, 1.3.6, 1.3.7</li>    
+      <li>From 1.3.3 to 1.3.5, 1.3.6, 1.3.7</li>
+      <li>From 1.3.4 to 1.3.5, 1.3.6, 1.3.7</li>
+      <li>From 1.3.5 to 1.3.6, 1.3.7</li>
+      <li>From 1.3.6 to 1.3.7</li>
     </ul>
   </td>
 </tr>
@@ -112,4 +113,3 @@ Please provide any bugs, feature requests, or questions to [the Pivotal Cloud Fo
 ## Further Reading
 
 * [DataStax Enterprise Documentation](http://www.datastax.com/docs)
-
