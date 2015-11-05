@@ -1,8 +1,8 @@
 ---
-title: DataStax Enterprise for Pivotal Cloud Foundry
+title: DataStax Enterprise for Pivotal Cloud Foundry&reg;
 ---
 
-Release notes for [DataStax Enterprise for Pivotal Cloud Foundry](https://network.pivotal.io/products/p-cassandra)
+Release notes for [DataStax Enterprise for Pivotal Cloud Foundry&reg;](https://network.pivotal.io/products/p-cassandra)
 
 ### 1.3.7
 **Release Date: 30th October 2015**

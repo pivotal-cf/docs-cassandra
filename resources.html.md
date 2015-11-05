@@ -1,5 +1,5 @@
 ---
-title: DataStax Enterprise for Pivotal Cloud Foundry
+title: DataStax Enterprise for Pivotal Cloud Foundry&reg;
 ---
 
 # Resource requirements
