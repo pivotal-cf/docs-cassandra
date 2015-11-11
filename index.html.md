@@ -8,8 +8,8 @@ This is documentation for the [DataStax Enterprise service for Pivotal Cloud Fou
 
 <dl>
 <dt>Current DataStax Enterprise for Pivotal Cloud Foundry&reg; Details</dt>
-<dd><strong>Version</strong>: 1.3.7 </dd>
-<dd><strong>Release Date</strong>: 30th October 2015</dd>
+<dd><strong>Version</strong>: 1.3.8 </dd>
+<dd><strong>Release Date</strong>: 11th November 2015</dd>
 <dd><strong>Software component version</strong>: DataStax Enterprise 4.5</dd>
 <dd><strong>Compatible Ops Manager Version(s)</strong>: 1.6.x, 1.5.x, 1.4.x</dd>
 <dd><strong>Compatible Elastic Runtime Version(s)</strong>: 1.6.x, 1.5.x, 1.4.x</dd>
@@ -43,11 +43,12 @@ For more information, refer to the full [Product Version Matrix](../compatibilit
 <tr>
   <th>1.6.x, 1.5.x and 1.4.x</th>
   <td><ul>
-      <li>From 1.3.2 to 1.3.5, 1.3.6, 1.3.7</li>    
-      <li>From 1.3.3 to 1.3.5, 1.3.6, 1.3.7</li>
-      <li>From 1.3.4 to 1.3.5, 1.3.6, 1.3.7</li>
-      <li>From 1.3.5 to 1.3.6, 1.3.7</li>
-      <li>From 1.3.6 to 1.3.7</li>
+      <li>From 1.3.2 to 1.3.5, 1.3.6, 1.3.7, 1.3.8</li>    
+      <li>From 1.3.3 to 1.3.5, 1.3.6, 1.3.7, 1.3.8</li>
+      <li>From 1.3.4 to 1.3.5, 1.3.6, 1.3.7, 1.3.8</li>
+      <li>From 1.3.5 to 1.3.6, 1.3.7, 1.3.8</li>
+      <li>From 1.3.6 to 1.3.7, 1.3.8</li>
+      <li>From 1.3.7 to 1.3.8</li>
     </ul>
   </td>
 </tr>
