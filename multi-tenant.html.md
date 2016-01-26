@@ -19,16 +19,15 @@ Key features of this plan are:
 By default the **multi-tenant** plan will configure `3` *seed nodes* and `1` *node* to give you a `4` node cluster in total.
 
 You can increase these values through `OpsManager` on the `Resource Config` tab.
+If you wish to scale the cluster we recommend you increase the instance count of the *Multitenant Cassandra Node* job on the resource page in OpsManager.
 
 ## Known Limitations
 
 Limitations with the current Cassandra product include:
 
 * Users are able to see the names of all other keyspaces in the cluster (though these names are essentially random). This is a limitation in Cassandra, and cannot be addressed without their assistance.
-* **Users are able to see the names of all tables inside another user's keyspace.**  This is a limitation in Cassandra, and cannot be addressed without their assistance.
+* **Users are able to see the names of all tables inside another user's keyspace.**  They cannot see the data inside though. This is a limitation in Cassandra, and cannot be addressed without their assistance.
 * Users cannot provision multiple keyspaces in a single service instance,
   though they can easily provision multiple instances, each with their own
   keyspace.
 * Constraining CPU, memory and/or disk usage is not supported.
-
-We hope to address all of these limitations in future releases.
