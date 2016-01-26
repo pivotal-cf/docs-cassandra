@@ -10,13 +10,13 @@ Release notes for [DataStax Enterprise for Pivotal Cloud Foundry&reg;](https://n
 Features included in this release:
 
 * Updated stemcell to xxxx
-* DataStax Enterprise is automatically upgraded when moving to this tile version. Including executing all of the recommend upgrade steps, see the upgrade documentation for more details
+* DataStax Enterprise is automatically upgraded when moving to this tile version. Including executing all of the recommend upgrade steps **Please refer to the [upgrade documentation](upgrade.html) for more details before executing this upgrade**
 * Support for rolling deployments
 * DataStax Enterprise updated to 4.8.2
 * DataStax OpsCenter updated to 5.2.2
 * Suitable for workloads that do not require dedicated resources.
 * DataStax OpsCenter is now located on its own VM
-* Smoke tests are run after a deployment to perform basic functionality and ensure the cluster is working and in a healthy state. 
+* Smoke tests are run after a deployment to perform basic functionality and ensure the cluster is working and in a healthy state.
 
 **Known issue:**
 
