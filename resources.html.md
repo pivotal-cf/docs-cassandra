@@ -78,4 +78,4 @@ These are the default resource and IP requirements for installing the tile
 </table>
 
 #### Notes:
-* The `development` plan consists of the `Multitenant Cassandra Seed Node` and `Multitenant Cassandra Node` resources
+* The `multi-tenant` plan consists of the `Multitenant Cassandra Seed Node` and `Multitenant Cassandra Node` resources
