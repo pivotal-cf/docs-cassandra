@@ -16,9 +16,7 @@ To upgrade the product:
 * Update any new mandatory configuration parameters (*if required*)
 * Press "Apply changes" and the rest of the process is automated
 
-During the upgrade deployment each Redis instance will experience a small period of downtime as each Redis instance is updated with the new software components. This downtime is because the Redis instances are single VMs operating in a non HA setup. The length of the downtime depends on whether there is a stemcell update to replace the operating system image or whether the existing VM can simply have the redis software updated. Stemcells updates incur additional downtime while the IaaS creates the new VM while updates without a stemcell update are faster.
-
-
+During the upgrade deployment, we aim to conduct a rolling deployment and follow all DataStax recommend upgrade steps, including disabling the repair service, migrating SSTables and updating packages. See below for more details.
 
 Ops Manager ensures the instances are updated with the new packages and any configuration changes are applied automatically.
 
