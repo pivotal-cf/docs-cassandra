@@ -99,7 +99,7 @@ There is one available plan:
 Once you have installed the product, it automatically registers itself with your Elastic Runtime. At this point, the product is available to your application developers, either in the Marketplace in the web based console, or via `cf marketplace`. They can add, provision, and bind the service to their applications like any other CF service:
 
 ```
-$ cf create-service p-cassandra development datastax
+$ cf create-service p-cassandra multi-tenant datastax
 $ cf bind-service my-application datastax
 $ cf restart my-application
 ```
