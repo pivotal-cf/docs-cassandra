@@ -20,7 +20,7 @@ These are the default resource and IP requirements for installing the tile
 	 	<td>3</td>
 	 	<td>2</td>
 	 	<td>4096</td>
-	 	<td>4096</td>
+	 	<td>8192</td>
 	 	<td>8192</td>
 	 	<td>1</td>
 	 	<td>0</td>
@@ -32,6 +32,16 @@ These are the default resource and IP requirements for installing the tile
  		<td>4096</td>
  		<td>4096</td>
  		<td>8192</td>
+ 		<td>1</td>
+ 		<td>0</td>
+ 	</tr>
+	<tr>
+ 		<td>DataStax OpsCenter</td>
+ 		<td>1</td>
+ 		<td>2</td>
+ 		<td>4096</td>
+ 		<td>4096</td>
+ 		<td>4096</td>
  		<td>1</td>
  		<td>0</td>
  	</tr>
@@ -57,6 +67,16 @@ These are the default resource and IP requirements for installing the tile
 	</tr>
 	<tr>
 		<td>Broker De-Registrar</td>
+		<td>1</td>
+		<td>1</td>
+		<td>1024</td>
+		<td>2048</td>
+		<td>0</td>
+		<td>0</td>
+		<td>1</td>
+	</tr>
+	<tr>
+		<td>Smoke tests</td>
 		<td>1</td>
 		<td>1</td>
 		<td>1024</td>

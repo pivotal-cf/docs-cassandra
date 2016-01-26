@@ -15,6 +15,8 @@ Features included in this release:
 * DataStax Enterprise updated to 4.8.2
 * DataStax OpsCenter updated to 5.2.2
 * Suitable for workloads that do not require dedicated resources.
+* DataStax OpsCenter is now located on its own VM
+* Smoke tests are run after a deployment to perform basic functionality and ensure the cluster is working and in a healthy state. 
 
 **Known issue:**
 
