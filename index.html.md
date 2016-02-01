@@ -76,8 +76,8 @@ There is one available plan:
 <th><strong>Tenancy Model per Instance</strong></th>
 <th><strong>Highly Available</strong></th>
 <th><strong>Availability Zone support</strong></th>
-<th><strong>Rolling deployments</strong></th>
-<th><strong>Operational Monitoring & logging</strong></th>
+<th><strong>Rolling Deployments</strong></th>
+<th><strong>Operational Monitoring & Logging</strong></th>
 <th><strong>Backup Functionality</strong></th>
 </tr>
 
@@ -86,7 +86,12 @@ There is one available plan:
 <td>Workloads that do not require dedicated resources</td>
 <td>Shared Cluster</td>
 <td>Yes</td>
-<td>Yes - we recommend 2 AZs</td>
+<td>
+  <ul>
+    <li>vSphere - Yes, we recommend 2 AZs</li>
+    <li>AWS - No, PCF Ops Manager 1.6 does not support multiple AZ for AWS</li>
+  </ul>
+</td>
 <td>Yes</td>
 <td>Syslog for all components</td>
 <td>Can be enabled by the Operator in DataStax OpsCenter</td>

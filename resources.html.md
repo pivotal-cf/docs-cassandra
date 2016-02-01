@@ -38,7 +38,7 @@ These are the default resource and IP requirements for installing the tile
 	<tr>
  		<td>DataStax OpsCenter</td>
  		<td>1</td>
- 		<td>2</td>
+		<td>4</td>
  		<td>4096</td>
  		<td>4096</td>
  		<td>4096</td>

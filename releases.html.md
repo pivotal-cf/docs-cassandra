@@ -5,7 +5,7 @@ title: DataStax Enterprise for Pivotal Cloud Foundry&reg;
 Release notes for [DataStax Enterprise for Pivotal Cloud Foundry&reg;](https://network.pivotal.io/products/p-cassandra)
 
 ### 1.4.0
-**Release Date: xx January 2015**
+**Release Date: xx February 2016**
 
 Features included in this release:
 
@@ -20,11 +20,11 @@ Features included in this release:
 
 **Known issue:**
 
-* On AWS we have observed that the arp cache on nodes which have being updated go stale and therefore whilst the VM is online and the Cassandra process is running, the node has not yet successfully rejoined the cluster
-* We have implemented workarounds, but we have observed this taking up to 10 minutes to resolve itself
-* There is a risk that with the default 4 node cluster setup, you can lose quorum in the cluster which depending upon your chosen settings in your application could result in you being able to read / write data.
-* To workaround this we recommend first scaling the cluster to 5 nodes, by increasing the number of `Multitenant Cassandra Node` to 2 nodes and deploying successfully, giving a total of 5 nodes in the cluster
-* Before then upgrading to this `1.4.0` tile we recommend you log into DataStax OpsCenter and validate that all 5 nodes are online and healthy and are now fully replicated.
+* On AWS we have observed stale ARP entries remaining in some of the nodes' ARP caches after a node has been updated. This prevents the nodes from being able to communicate with the upgraded node. The Cassandra process will start and the node will appear healthy, but it will not have rejoined the cluster successfully.
+* We have implemented workarounds, but we have observed this taking a few minutes to resolve itself.
+* There is a risk that with the default 4 node cluster setup, you can lose quorum in the cluster which, depending on the chosen settings in your application, could result in you not being able to read / write data.
+* To workaround this we recommend scaling the cluster to 5 nodes before upgrading to this `1.4.0` tile. This can be achieved by increasing the number of `Multitenant Cassandra Node` to 2 nodes and deploying successfully.
+* Before then upgrading to this `1.4.0` tile, we recommend you log into DataStax OpsCenter and validate that all 5 nodes are online and healthy and are now fully replicated.
 
 ### 1.3.8
 **Release Date: 11th November 2015**

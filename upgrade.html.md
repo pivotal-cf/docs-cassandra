@@ -26,14 +26,15 @@ Upgrading to a newer version of the product does not cause any loss of data or c
 
 1. Disable the repair service across the cluster
 1. On each node:
+  1. Prepare for safe shutdown via `nodetool disablegossip`, `nodetool disablethrift` and `nodetool drain`
   1. Stop the node
   1. Backup configuration files
-  1. Execute `nodetool drain`
   1. Update configuration files for the new version of DataStax
   1. Update the DataStax packages
-  1. Migrate the SS tables
+  1. Start the Cassandra process and wait for it to be healthy
+  1. Take a snapshot of the data (if there is enough free space to store the snapshot on disk)
+  1. Upgrade the SSTables
   1. Start the node
-  1. Check the node is healthy
 1. Enable the repair service across the cluster
 
 ## Rolling deployments
@@ -46,13 +47,13 @@ Combining updating a single node at a time and using a certified driver, along w
 
 ### Known issues
 
-On AWS we have experienced issues with the ARP cache on an updated node being stale, this results in the VM being online and the Cassandra process running - so everything is reported as healthy to BOSH, but the node is unable to re-join the cluster.
+On AWS we have observed stale ARP entries remaining in some of the nodes' ARP caches after a node has been updated. This prevents the nodes from being able to communicate with the upgraded node. The Cassandra process will start and the node will appear healthy, but it will not have rejoined the cluster successfully.
 
-We have implemented workarounds to resolve the issue and force the ARP cache to be updated, but we have still witnessed this taking up to 10 minutes to resolve itself.
+We have implemented workarounds to resolve the issue and to also force the local ARP cache to be updated, but we have still witnessed this taking a few minutes to resolve itself.
 
 This can in some cases cause your cluster to lose quorum if you deploy the with default 4 node configuration.
 
-We recommend that you scale your `multi-tenant` cluster to 5 nodes, by increasing the count of the `Multitenant Cassandra Node` to `2` nodes from the default of `1`
+We recommend that you scale your `multi-tenant` cluster to 5 nodes, by increasing the count of the `Multitenant Cassandra Node` to `2` nodes from the default of `1`.
 
 Therefore during an upgrade of a 5 node cluster the following scenario will occur
 * Node 1 is updated and brought online - but hasn't yet rejoined the cluster
