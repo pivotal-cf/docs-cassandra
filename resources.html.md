@@ -1,5 +1,6 @@
 ---
 title: DataStax Enterprise for Pivotal Cloud Foundry&reg;
+owner: London Services
 ---
 
 # Resource requirements
@@ -44,7 +45,7 @@ These are the default resource and IP requirements for installing the tile
  		<td>1024</td>
  		<td>1</td>
  		<td>0</td>
- 	</tr> 	 	
+ 	</tr>
 	<tr>
 		<td>Broker Registrar</td>
 		<td>1</td>

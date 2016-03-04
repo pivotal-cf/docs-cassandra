@@ -1,5 +1,6 @@
 ---
 title: DataStax Enterprise for Pivotal Cloud Foundry&reg;
+owner: London Services
 ---
 
 Release notes for [DataStax Enterprise for Pivotal Cloud Foundry&reg;](https://network.pivotal.io/products/p-cassandra)
