@@ -5,6 +5,8 @@ owner: London Services
 
 This is documentation for the [DataStax Enterprise service for Pivotal Cloud Foundry&reg;](https://network.pivotal.io/products/p-cassandra), which provides a Cassandra key-value and table store.
 
+<p class="note"><strong>Note</strong>: This product is no longer being maintained or updated with new versions. If you require access to an older version of the product please contact Pivotal Support. </p>
+
 ## Product snapshot
 
 <dl>
