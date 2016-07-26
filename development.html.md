@@ -1,9 +1,9 @@
 ---
-title: DataStax Enterprise for Pivotal Cloud Foundry&reg;
+title: DataStax Enterprise for Pivotal Cloud Foundry
 owner: London Services
 ---
 
-This is documentation for the DataStax Enterprise service for [Pivotal Cloud Foundry&reg;](https://network.pivotal.io/products/pivotal-cf) (PCF), which provides a Cassandra key-value and table store.
+This is documentation for the DataStax Enterprise service for [Pivotal Cloud Foundry](https://network.pivotal.io/products/pivotal-cf) (PCF), which provides a Cassandra key-value and table store.
 
 ## Development plan features
 Key features of this plan are:

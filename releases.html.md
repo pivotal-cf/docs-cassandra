@@ -1,9 +1,9 @@
 ---
-title: DataStax Enterprise for Pivotal Cloud Foundry&reg;
+title: DataStax Enterprise for Pivotal Cloud Foundry
 owner: London Services
 ---
 
-Release notes for [DataStax Enterprise for Pivotal Cloud Foundry&reg;](https://network.pivotal.io/products/p-cassandra)
+Release notes for [DataStax Enterprise for Pivotal Cloud Foundry](https://network.pivotal.io/products/p-cassandra)
 
 ### 1.3.8
 **Release Date: 11th November 2015**
