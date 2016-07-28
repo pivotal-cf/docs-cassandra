@@ -1,5 +1,5 @@
 ---
-title: DataStax Enterprise for Pivotal Cloud Foundry&reg;
+title: DataStax Enterprise for Pivotal Cloud Foundry
 owner: London Services
 ---
 

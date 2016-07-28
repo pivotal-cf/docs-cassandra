@@ -1,14 +1,14 @@
 ---
-title: DataStax Enterprise for Pivotal Cloud Foundry&reg;
+title: DataStax Enterprise for Pivotal Cloud Foundry
 owner: London Services
 ---
 
-This is documentation for the [DataStax Enterprise service for Pivotal Cloud Foundry&reg;](https://network.pivotal.io/products/p-cassandra), which provides a Cassandra key-value and table store.
+This is documentation for the [DataStax Enterprise service for Pivotal Cloud Foundry](https://network.pivotal.io/products/p-cassandra), which provides a Cassandra key-value and table store.
 
 ## Product snapshot
 
 <dl>
-<dt>Current DataStax Enterprise for Pivotal Cloud Foundry&reg; Details</dt>
+<dt>Current DataStax Enterprise for Pivotal Cloud Foundry Details</dt>
 <dd><strong>Version</strong>: 1.3.8 </dd>
 <dd><strong>Release Date</strong>: 11th November 2015</dd>
 <dd><strong>Software component version</strong>: DataStax Enterprise 4.5</dd>
@@ -21,9 +21,9 @@ This is documentation for the [DataStax Enterprise service for Pivotal Cloud Fou
 
 ## Upgrading to the Latest Version
 
-Consider the following compatibility information before upgrading DataStax Enterprise for [Pivotal Cloud Foundry&reg;](https://network.pivotal.io/products/pivotal-cf) (PCF).
+Consider the following compatibility information before upgrading DataStax Enterprise for [Pivotal Cloud Foundry](https://network.pivotal.io/products/pivotal-cf) (PCF).
 
-<p class="note"><strong>Note</strong>: Before you upgrade to Ops Manager 1.4.x, you must first upgrade DataStax Enterprise for Pivotal Cloud Foundry&reg; to any version in its 1.3.x minor release, below 1.3.5. This allows DataStax Enterprise for Pivotal Cloud Foundry&reg; upgrades after you install OpsManager 1.4.x. </p>
+<p class="note"><strong>Note</strong>: Before you upgrade to Ops Manager 1.4.x, you must first upgrade DataStax Enterprise for Pivotal Cloud Foundry to any version in its 1.3.x minor release, below 1.3.5. This allows DataStax Enterprise for Pivotal Cloud Foundry upgrades after you install OpsManager 1.4.x. </p>
 
 For more information, refer to the full [Product Version Matrix](../compatibility-matrix.pdf).
 
@@ -110,7 +110,7 @@ Obtain a licence to use DataStax Enterprise [directly from DataStax](http://www.
 
 ## Feedback
 
-Please provide any bugs, feature requests, or questions to [the Pivotal Cloud Foundry&reg; Feedback list](mailto:pivotal-cf-feedback@pivotal.io).
+Please provide any bugs, feature requests, or questions to [the Pivotal Cloud Foundry Feedback list](mailto:pivotal-cf-feedback@pivotal.io).
 
 ## Further Reading
 
