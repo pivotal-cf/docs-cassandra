@@ -1,4 +1,4 @@
-# THIS REPO IS OBSOLETE
+# This repo is obsolete
 The DataStax Enterprise for Pivotal Cloud Foundry tile (_product_ and _documentation_) has been retired / EOL (end-of-life-d).
 This documentation no longer appears on the [docs.pivotal.io](https://docs.pivotal.io/) site.
 
